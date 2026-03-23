@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+  }
+
+  /* 데스크탑 환경에서 전체적인 크기 확대 (가독성 향상) */
+  @media (min-width: 1024px) {
+    html {
+      font-size: 17px;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    html {
+      font-size: 18px;
+    }
+  }
+
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    background-color: #FDFCF8;
+    color: #4A4A4A;
+  }
+}
+
+/* ── 글라스모피즘 네비게이션 ── */
+.nav-glass {
+  background-color: rgba(253, 252, 248, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(232, 228, 221, 0.6);
+}
+
+/* ── 스크롤 리빌 애니메이션 ── */
+.reveal-element {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── 형광펜 하이라이트 텍스트 ── */
+.text-highlight {
+  background: linear-gradient(180deg, transparent 60%, #FFC8A2 60%);
+  display: inline;
+}
+
+/* ── 프로필 사진 페이드인 ── */
+@keyframes fadeInPhoto {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.photo-fade-in {
+  opacity: 0;
+  animation: fadeInPhoto 1.2s ease-out 0.3s forwards;
+}
+
+/* ── 히어로 배경 orb 애니메이션 ── */
+@keyframes orbFloat1 {
+  0%, 100% { transform: translate(0, 0) scale(1);            opacity: 0.25; }
+  33%       { transform: translate(30px, -40px) scale(1.08); opacity: 0.38; }
+  66%       { transform: translate(-20px, 20px) scale(0.95); opacity: 0.18; }
+}
+
+@keyframes orbFloat2 {
+  0%, 100% { transform: translate(0, 0) scale(1);             opacity: 0.30; }
+  40%       { transform: translate(-35px, 25px) scale(1.1);   opacity: 0.18; }
+  70%       { transform: translate(20px, -30px) scale(0.92);  opacity: 0.40; }
+}
+
+@keyframes orbFloat3 {
+  0%, 100% { transform: translate(0, 0) scale(1);           opacity: 0.20; }
+  50%       { transform: translate(25px, 35px) scale(1.06); opacity: 0.35; }
+}
+
+.hero-orb-1 { animation: orbFloat1 14s ease-in-out infinite; }
+.hero-orb-2 { animation: orbFloat2 18s ease-in-out infinite; }
+.hero-orb-3 { animation: orbFloat3 11s ease-in-out infinite; }
+
+/* ── 벤토 카드 호버 ── */
+.bento-card {
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+}
+
+.bento-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(74, 74, 74, 0.1);
+}

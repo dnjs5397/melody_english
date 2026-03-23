@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(source ~/.nvm/nvm.sh && nvm use 20 && node --version && npm run build 2>&1)",
+      "Bash(source ~/.nvm/nvm.sh && nvm use 20 && npm run build 2>&1)"
+    ]
+  }
+}

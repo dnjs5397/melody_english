@@ -1,0 +1,114 @@
+{
+  "name": "오연주",
+  "subject": "영어",
+  "title": "영어 강사",
+  "tagline": "개념부터 적용까지, 수능/내신 영어의 모든 것",
+  "bio": [
+    "6년간 영어를 전문으로 가르쳐온 강사입니다.",
+    "수능/내신 영어까지 쉽게 풀어내는 법을 알려드립니다.",
+    "매년 수강생들의 꾸준한 성적 향상을 이끌어왔으며,",
+    "안정적인 1등급을 목표로 함께 나아가겠습니다."
+  ],
+  "stats": [
+    {
+      "label": "강의 경력",
+      "value": "6년"
+    },
+    {
+      "label": "1등급, 서/연/고 합격생 배출",
+      "value": "결과로 증명하는 강의"
+    }
+  ],
+  "previewVideoId": "g2WVWhTdIGs",
+  "previewVideoTitle": "수능 영어 빈칸추론 독해 전략 - 맛보기 강의",
+  "career": [
+    {
+      "year": "2022",
+      "title": "서울대학교 사범대학 졸업",
+      "description": ""
+    },
+    {
+      "year": "2023",
+      "title": "동대문구 소재 종합학원 영어 전임",
+      "description": ""
+    },
+    {
+      "year": "2025",
+      "title": "메가스터디 강사학교 수료",
+      "description": ""
+    },
+    {
+      "year": "2026",
+      "title": "메가스터디 러셀 중계·분당\n메가스터디 성북 출강",
+      "description": ""
+    }
+  ],
+  "schedule": [
+    {
+      "day": "월",
+      "slots": []
+    },
+    {
+      "day": "화",
+      "slots": []
+    },
+    {
+      "day": "수",
+      "slots": [
+        {
+          "time": "18:30~22:00",
+          "place": "중계",
+          "school": "불암고2",
+          "link": "https://russeljg.megastudy.net/russel/teacher/teacher_home.asp?code=1805"
+        }
+      ]
+    },
+    {
+      "day": "목",
+      "slots": [
+        {
+          "time": "18:00~20:00",
+          "place": "성북",
+          "school": "용문고1",
+          "link": "https://seongbuks.megastudy.net/seongbuk/jaehak/main.asp?refer="
+        }
+      ]
+    },
+    {
+      "day": "금",
+      "slots": []
+    },
+    {
+      "day": "토",
+      "slots": [
+        {
+          "time": "14:00~17:30",
+          "place": "중계",
+          "school": "경희고2",
+          "link": "https://russeljg.megastudy.net/russel/teacher/teacher_home.asp?code=1805"
+        },
+        {
+          "time": "18:30~22:00",
+          "place": "중계",
+          "school": "경희고1",
+          "link": "https://russeljg.megastudy.net/russel/teacher/teacher_home.asp?code=1805"
+        }
+      ]
+    },
+    {
+      "day": "일",
+      "slots": [
+        {
+          "time": "18:00~21:00",
+          "place": "성북",
+          "school": "용문고1",
+          "link": "https://seongbuks.megastudy.net/seongbuk/jaehak/main.asp?refer="
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "kakao": "teacher_younju",
+    "notice": "보강 인증코드는 강의 공지사항을 통해 개별 안내됩니다."
+  }
+}
