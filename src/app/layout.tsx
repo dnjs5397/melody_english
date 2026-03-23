@@ -11,12 +11,11 @@ const notoSansKR = Noto_Sans_KR({
 });
 
 export const metadata: Metadata = {
-  title: '수능 영어 전문 강사 | 강의 안내',
-  description:
-    '수능 영어 전문 강사의 프로필 및 보강 영상 안내 페이지입니다. 강사 소개, 약력, 맛보기 강의를 확인하세요.',
+  title: 'Melody English',
+  description: '메가스터디 러셀 영어 강사 오연주입니다.',
   openGraph: {
-    title: '수능 영어 전문 강사',
-    description: '수능 영어 전문 강사의 프로필 및 보강 영상 안내 페이지입니다.',
+    title: 'Melody English',
+    description: '메가스터디 러셀 영어 강사 오연주입니다.',
     type: 'website',
   },
 };
